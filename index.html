@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>To-Do App</title>
+
+    <!--Material Design Lite -->
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.deep_purple-pink.min.css">
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+
+    <!--Custom Styles-->
+    <link rel="stylesheet" href="styles/main.css">
+
+  </head>
+  <body>
+    <h1>To-Do App</h1>
+
+    <form id="addToDoForm">
+        <label for="newToDoText">New To-Do:</label>
+        <input type="text" id="newToDoText">
+        <button type="submit">Add To-Do!</button>
+    </form>
+
+    <ul id="toDoList" class="mdl-list">
+    </ul>
+
+    <script src="app.js"></script>
+  </body>
+</html>
